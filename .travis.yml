@@ -1,6 +1,8 @@
 sudo: required
 dist: trusty
 
+language: javascript
+
 install:
   - npm config set spin false
   - npm install -g mocha
