@@ -1,7 +1,9 @@
 sudo: required
 dist: trusty
 
-language: javascript
+language: node_js
+node_js:
+  - "6"
 
 install:
   - npm config set spin false
