@@ -9,6 +9,8 @@ install:
   - npm install -g chakram
 
 script:
+  - ls -la
+  - export
   - mocha sample.js
 
 
