@@ -1,0 +1,12 @@
+sudo: required
+dist: trusty
+
+install:
+  - npm config set spin false
+  - npm install -g mocha
+  - npm install -g chakram
+
+script:
+  - mocha sample.js
+
+
