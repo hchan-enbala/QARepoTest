@@ -7,8 +7,8 @@ node_js:
 
 install:
   - npm config set spin false
-  - npm install -g mocha
-  - npm install -g chakram
+  - npm install mocha --save-dev
+  - npm install chakram --save-dev
 
 script:
   - ls -la
