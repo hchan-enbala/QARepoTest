@@ -14,5 +14,6 @@ script:
   - ls -la
   - export
   - mocha sample.js
+  - mocha sample2.js
 
 
